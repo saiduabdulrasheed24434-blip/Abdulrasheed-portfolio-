@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrasheed Saidu | ICT Specialist & Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans leading-relaxed">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-blue-400">ABDULRASHEED<span class="text-white">.ICT</span></a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Experience & Education</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-[85vh] flex items-center justify-center px-6 text-center">
+        <div class="max-w-3xl">
+            <span class="inline-block py-1.5 px-4 rounded-full bg-blue-500/10 text-blue-400 text-xs font-semibold tracking-wide uppercase mb-4 border border-blue-500/20">
+                ICT Specialist & Systems Developer
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 text-white">
+                Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Abdulrasheed Saidu</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
+                Specializing in hardware maintenance, system installations, web development, and ICT education. Bridging technical infrastructure with digital solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg shadow-blue-500/25">
+                    View Featured Work
+                </a>
+                <a href="#contact" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-slate-950/50 border-y border-slate-800/60">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-white">About Me</h2>
+            <p class="text-slate-300 text-base sm:text-lg leading-relaxed mb-6">
+                I am an ICT Specialist with a strong foundation in Computer Science from Auchi Polytechnic. My expertise spans hardware troubleshooting, operating system deployments, network setup, and front-end web technologies including HTML, CSS, and modern web applications.
+            </p>
+            <p class="text-slate-400 text-base leading-relaxed">
+                Alongside core ICT infrastructure, I have professional training in technical operations, Computer Studies education, and Petroleum Product Marketing with certification from the Oil & Gas Education & Research Academy.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-12 text-white text-center">Core Competencies</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-laptop-medical"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Hardware & Diagnostics</h3>
+                <p class="text-slate-400 text-sm">Computer hardware maintenance, component diagnostic tests, system upgrades, and preventive care.</p>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-code"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Web Development</h3>
+                <p class="text-slate-400 text-sm">Building clean, semantic, and responsive websites using HTML, CSS, and interactive JavaScript.</p>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-server"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Systems Deployment</h3>
+                <p class="text-slate-400 text-sm">OS installation, configuration, driver management, network troubleshooting, and technical support.</p>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Computer Instruction</h3>
+                <p class="text-slate-400 text-sm">Teaching computer studies, digital literacy, and mentoring students in ICT principles.</p>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-oil-well"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Petroleum Technical Ops</h3>
+                <p class="text-slate-400 text-sm">Petroleum product marketing training, operations workflow, and technical safety standards.</p>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-xl hover:border-blue-500/50 transition">
+                <div class="text-blue-400 text-3xl mb-4"><i class="fa-solid fa-certificate"></i></div>
+                <h3 class="text-lg font-semibold mb-2 text-white">Certifications</h3>
+                <p class="text-slate-400 text-sm">SoloLearn Certified Developer & Oil & Gas Education & Research Academy credentials.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section id="experience" class="py-20 px-6 bg-slate-950/50 border-t border-slate-800/60">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-12 text-white text-center">Education & Background</h2>
+            
+            <div class="space-y-8">
+                <!-- Education Item 1 -->
+                <div class="bg-slate-800/40 border border-slate-700/60 p-6 rounded-xl">
+                    <div class="flex justify-between items-start flex-wrap gap-2 mb-2">
+                        <h3 class="text-lg font-bold text-white">Auchi Polytechnic</h3>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Graduated 2017</span>
+                    </div>
+                    <p class="text-sm font-semibold text-slate-300">Higher Level Computer Science & Technology Studies</p>
+                    <p class="text-xs text-slate-400 mt-2">Advanced coursework in system architecture, network fundamentals, programming, and database principles.</p>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="bg-slate-800/40 border border-slate-700/60 p-6 rounded-xl">
+                    <div class="flex justify-between items-start flex-wrap gap-2 mb-2">
+                        <h3 class="text-lg font-bold text-white">Ordinary National Diploma (OND) in Computer Science</h3>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Graduated 2013</span>
+                    </div>
+                    <p class="text-sm font-semibold text-slate-300">Auchi Polytechnic — Upper Credit</p>
+                    <p class="text-xs text-slate-400 mt-2">Graduated with Upper Credit distinction, covering software concepts, hardware mechanics, and computer logic.</p>
+                </div>
+
+                <!-- Training & Certs -->
+                <div class="bg-slate-800/40 border border-slate-700/60 p-6 rounded-xl">
+                    <h3 class="text-lg font-bold text-white mb-2">Professional Certifications & Training</h3>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1">
+                        <li><strong>SoloLearn:</strong> Certified in Web Development fundamentals & programming concepts.</li>
+                        <li><strong>Oil & Gas Education & Research Academy:</strong> Petroleum Product Marketing Certification.</li>
+                        <li><strong>ICT Teaching & Operations:</strong> Computer Studies instruction and practical workshop management.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-12 text-white text-center">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Project 1 -->
+            <div class="bg-slate-800/40 border border-slate-700/60 rounded-xl overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <div class="text-blue-400 text-2xl mb-3"><i class="fa-solid fa-code font-bold"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Developer & ICT Web Portfolio</h3>
+                    <p class="text-slate-400 text-sm mb-4">A clean, responsive, single-page web application showcasing hardware maintenance capabilities, technical credentials, and developer projects.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">HTML5</span>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Tailwind CSS</span>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">GitHub Pages</span>
+                    </div>
+                </div>
+                <div class="pt-4 border-t border-slate-800 flex justify-between items-center text-sm">
+                    <span class="text-slate-400">Status: Active</span>
+                    <a href="https://github.com" target="_blank" class="text-blue-400 hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> Repository</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-slate-800/40 border border-slate-700/60 rounded-xl overflow-hidden flex flex-col justify-between p-6">
+                <div>
+                    <div class="text-blue-400 text-2xl mb-3"><i class="fa-solid fa-screwdrivers-all"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Hardware Diagnostic & Maintenance Suite</h3>
+                    <p class="text-slate-400 text-sm mb-4">Implementation of systematic diagnostic procedures for hardware troubleshooting, system restoration, drive partitioning, and routine OS optimization.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Hardware Ops</span>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Sys Diagnostics</span>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 px-2.5 py-1 rounded border border-blue-500/20">Technical Support</span>
+                    </div>
+                </div>
+                <div class="pt-4 border-t border-slate-800 flex justify-between items-center text-sm">
+                    <span class="text-slate-400">Documentation & Systems</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-slate-950/50 border-t border-slate-800/60 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-white">Get In Touch</h2>
+            <p class="text-slate-400 mb-8">Feel free to reach out for ICT consultations, web development projects, or professional opportunities.</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-8 text-sm">
+                <a href="mailto:saiduabdulrasheed24434@gmail.com" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg shadow-blue-500/25">
+                    <i class="fa-solid fa-envelope"></i> saiduabdulrasheed24434@gmail.com
+                </a>
+                <a href="tel:08055007306" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">
+                    <i class="fa-solid fa-phone"></i> 08055007306
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-xs text-slate-500 border-t border-slate-800">
+        <p>&copy; 2026 Abdulrasheed Saidu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 # Abdulrasheed-portfolio-
