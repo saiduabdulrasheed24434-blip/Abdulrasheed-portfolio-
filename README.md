@@ -187,22 +187,38 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 px-6 bg-slate-950/50 border-t border-slate-800/60 text-center">
-        <div class="max-w-2xl mx-auto">
-            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-white">Get In Touch</h2>
-            <p class="text-slate-400 mb-8">Feel free to reach out for ICT consultations, web development projects, or professional opportunities.</p>
+<!-- Upgraded Contact Section with a Real Working Form -->
+<section id="contact" class="py-20 px-6 bg-slate-950/50 border-t border-slate-800/60 text-center">
+    <div class="max-w-xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-white">Get In Touch</h2>
+        <p class="text-slate-400 mb-8">Send me a message directly, and it will land straight in my inbox!</p>
+        
+        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4 text-left">
+            <!-- Replace with your Access Key from Web3Forms -->
+            <input type="hidden" name="apikey" value="c4691245-1186-4ed1-a894-5fe9c86d5f11">
             
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-8 text-sm">
-                <a href="mailto:saiduabdulrasheed24434@gmail.com" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg shadow-blue-500/25">
-                    <i class="fa-solid fa-envelope"></i> saiduabdulrasheed24434@gmail.com
-                </a>
-                <a href="tel:08055007306" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">
-                    <i class="fa-solid fa-phone"></i> 08055007306
-                </a>
+            <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Your Name</label>
+                <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-blue-500">
             </div>
-        </div>
-    </section>
+            
+            <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Your Email</label>
+                <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Message</label>
+                <textarea name="message" rows="4" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-blue-500"></textarea>
+            </div>
+            
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg transition shadow-lg shadow-blue-500/25">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+
 
     <!-- Footer -->
     <footer class="py-8 text-center text-xs text-slate-500 border-t border-slate-800">
