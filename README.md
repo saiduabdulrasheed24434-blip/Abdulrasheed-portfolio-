@@ -1,32 +1,209 @@
-# Abdulrasheed Saidu - Portfolio & Systems Hub
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrasheed Saidu - Portfolio & Systems Hub</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0b0f19',
+                        cardBg: '#111827',
+                        accentBlue: '#2563eb',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
 
-A modern, responsive React + TypeScript portfolio application for **Abdulrasheed Saidu**, ICT Specialist, Hardware Maintenance Technician, and Systems Developer.
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-darkBg/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-lg tracking-wider text-blue-400">ABDULRASHEED.ICT</a>
+            <nav class="hidden md:flex space-x-6 text-sm text-gray-300">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#competencies" class="hover:text-blue-400 transition">Competencies</a>
+                <a href="#education" class="hover:text-blue-400 transition">Education</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-## Features
+    <!-- Hero Section -->
+    <section class="py-20 px-6 text-center max-w-4xl mx-auto">
+        <span class="inline-block py-1 px-3 rounded-full bg-blue-900/40 text-blue-400 text-xs font-semibold mb-6 border border-blue-700/50">
+            ICT SPECIALIST & SYSTEMS DEVELOPER
+        </span>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Abdulrasheed Saidu</span>
+        </h1>
+        <p class="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+            Specializing in hardware maintenance, system installations, web development, and ICT education. Bridging technical infrastructure with digital solutions.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-xl transition shadow-lg shadow-blue-600/30">
+                <i class="fa-solid fa-code mr-2"></i> View Featured Work
+            </a>
+            <a href="#contact" class="bg-gray-800 hover:bg-gray-700 text-gray-200 font-medium px-6 py-3 rounded-xl transition border border-gray-700">
+                <i class="fa-solid fa-envelope mr-2"></i> Let's Connect
+            </a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left max-w-3xl mx-auto">
+            <div class="bg-cardBg p-4 rounded-xl border border-gray-800">
+                <p class="text-xs text-gray-500 uppercase font-bold">Background</p>
+                <p class="font-semibold text-gray-200">Computer Science HND</p>
+            </div>
+            <div class="bg-cardBg p-4 rounded-xl border border-gray-800">
+                <p class="text-xs text-gray-500 uppercase font-bold">Specialization</p>
+                <p class="font-semibold text-gray-200">Hardware & Networking</p>
+            </div>
+            <div class="bg-cardBg p-4 rounded-xl border border-gray-800">
+                <p class="text-xs text-gray-500 uppercase font-bold">Status</p>
+                <p class="font-semibold text-green-400"><i class="fa-solid fa-circle text-[10px] mr-1"></i> Available for ICT Ops</p>
+            </div>
+        </div>
+    </section>
 
-- **Responsive Navigation**: Sticky header with mobile drawer navigation and section spy.
-- **Hero & Identity**: Professional background highlighting computer science education and ICT infrastructure expertise.
-- **About & Core Competencies**: Interactive skill categorization across Hardware, Development, Systems, Education, and Certifications.
-- **Academic & Professional Background**: Comprehensive view of Auchi Polytechnic Computer Science credentials (OND Upper Credit & HND level) and professional training from SoloLearn and Oil & Gas Education & Research Academy.
-- **Featured Projects**: Highlights of web development initiatives and hardware diagnostic/maintenance procedures with expandable technical deliverables.
-- **Direct Contact & Inquiry**: Instant mailto link, phone dialer, one-click email copying, and a built-in inquiry composer.
+    <!-- About Me -->
+    <section id="about" class="py-16 px-6 bg-cardBg/50 border-y border-gray-800/60">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-gray-300 leading-relaxed mb-8 text-sm md:text-base">
+                I am an ICT Specialist with a strong foundation in Computer Science from Auchi Polytechnic. My expertise spans troubleshooting, operating systems deployments, network setup, and full-end web technologies including HTML, CSS, and modern web applications. Across core infrastructures, I have professional training in technical operations, computer studies education, and frontend product engineering with certifications from the UK & Isa Education & Research Academy.
+            </p>
+            <div class="flex flex-wrap justify-center gap-2">
+                <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-lg border border-gray-700">Hardware Diagnostics</span>
+                <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-lg border border-gray-700">System Deployment</span>
+                <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-lg border border-gray-700">Computer Science</span>
+                <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-lg border border-gray-700">Education</span>
+                <span class="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-lg border border-gray-700">Technical Analytics</span>
+            </div>
+        </div>
+    </section>
 
-## Tech Stack
+    <!-- Core Competencies -->
+    <section id="competencies" class="py-16 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Core Competencies</h2>
+        <p class="text-gray-400 text-center mb-12 text-sm">Proven capabilities spanning hardware, full-stack software systems engineering, modern web technologies, and technical training.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800">
+                <div class="text-blue-400 text-2xl mb-4"><i class="fa-solid fa-microchip"></i></div>
+                <h3 class="font-bold text-lg mb-2">Hardware & Diagnostics</h3>
+                <p class="text-gray-400 text-sm">Component-level maintenance, structured diagnostic tests, system upgrades, and preventive care.</p>
+            </div>
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800">
+                <div class="text-blue-400 text-2xl mb-4"><i class="fa-solid fa-code"></i></div>
+                <h3 class="font-bold text-lg mb-2">Web Development</h3>
+                <p class="text-gray-400 text-sm">Building clean, semantic, and responsive solutions using HTML, CSS, and interactive practices.</p>
+            </div>
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800">
+                <div class="text-blue-400 text-2xl mb-4"><i class="fa-solid fa-server"></i></div>
+                <h3 class="font-bold text-lg mb-2">Systems Deployment</h3>
+                <p class="text-gray-400 text-sm">OS installation, configuration, asset management, network troubleshooting, and structural support.</p>
+            </div>
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800">
+                <div class="text-blue-400 text-2xl mb-4"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <h3 class="font-bold text-lg mb-2">Computer Instruction</h3>
+                <p class="text-gray-400 text-sm">Teaching computer studies, digital literacy, and mentoring students in ICT principles.</p>
+            </div>
+        </div>
+    </section>
 
-- **Framework**: React 19 + TypeScript
-- **Bundler**: Vite
-- **Styling**: Tailwind CSS v4
-- **Icons**: FontAwesome & Lucide Icons
+    <!-- Education & Background -->
+    <section id="education" class="py-16 px-6 bg-cardBg/50 border-y border-gray-800/60">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Education & Background</h2>
+            <p class="text-gray-400 text-center mb-12 text-sm">Academic foundation in computer science paired with specialized technical training and operations certifications.</p>
+            
+            <div class="space-y-6">
+                <div class="bg-darkBg p-6 rounded-xl border border-gray-800">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-lg text-blue-400">Auchi Polytechnic</h3>
+                        <span class="text-xs bg-blue-900/40 text-blue-300 px-2.5 py-1 rounded-md border border-blue-700/50">HND (Upper Credit)</span>
+                    </div>
+                    <p class="text-sm font-semibold text-gray-200">Higher National Diploma (HND) in Computer Science</p>
+                    <p class="text-xs text-gray-400 mt-2">Equipped with upper-level analytical reasoning, software design, complex hardware barriers, and structural logic.</p>
+                </div>
+                
+                <div class="bg-darkBg p-6 rounded-xl border border-gray-800">
+                    <h3 class="font-bold text-lg text-blue-400 mb-2">Professional Certifications & Training</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><strong class="text-white">WebTech:</strong> Verified full-stack development fundamentals and programming concepts.</li>
+                        <li><strong class="text-white">UK & Isa Education & Research Academy:</strong> Petroleum Product Branding Certification.</li>
+                        <li><strong class="text-white">ICT Teaching & Operations:</strong> Computer studies instructor and practical workshop management.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## Getting Started
+    <!-- Featured Projects -->
+    <section id="projects" class="py-16 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Featured Projects</h2>
+        <p class="text-gray-400 text-center mb-12 text-sm">Key initiatives demonstrating modern web deployment and advanced hardware maintenance procedures.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg mb-2">Developer & ICT Web Portfolio</h3>
+                    <p class="text-gray-400 text-sm mb-4">A sleek, responsive single-page web application showcasing hardware maintenance expertise, technical credentials, and practical deliverables.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">HTML</span>
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">CSS</span>
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">Tailwind</span>
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">JS</span>
+                    </div>
+                </div>
+                <div class="text-xs text-blue-400 font-semibold">Active & Live</div>
+            </div>
 
-```bash
-# Install dependencies
-npm install
+            <div class="bg-cardBg p-6 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-bold text-lg mb-2">Hardware Diagnostic & Maintenance Suite</h3>
+                    <p class="text-gray-400 text-sm mb-4">Implementation of granular diagnostic procedures for hardware troubleshooting, system installation, chip-level partitioning, and OS optimization.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">Diagnostics</span>
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">Hardware</span>
+                        <span class="text-[10px] bg-gray-800 px-2 py-1 rounded text-gray-300">IT Support</span>
+                    </div>
+                </div>
+                <div class="text-xs text-blue-400 font-semibold">Standardized Engine</div>
+            </div>
+        </div>
+    </section>
 
-# Start development server
-npm run dev
+    <!-- Get in Touch -->
+    <section id="contact" class="py-16 px-6 bg-cardBg/50 border-t border-gray-800/60">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Get In Touch</h2>
+            <p class="text-gray-400 mb-8 text-sm">Feel free to reach out for ICT consultations, web development projects, or professional opportunities.</p>
+            
+            <div class="flex flex-wrap justify-center gap-4 mb-10">
+                <a href="mailto:saidtuabdulrasheed24434@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl text-sm font-medium transition">
+                    <i class="fa-solid fa-envelope mr-2"></i> saidtuabdulrasheed24434@gmail.com
+                </a>
+                <a href="tel:0806087239" class="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-xl text-sm font-medium transition border border-gray-700">
+                    <i class="fa-solid fa-phone mr-2"></i> 0806087239
+                </a>
+            </div>
+        </div>
+    </section>
 
-# Build for production
-npm run build
-```
+    <!-- Footer -->
+    <footer class="py-8 px-6 text-center text-xs text-gray-500 border-t border-gray-800">
+        <p>&copy; 2026 Abdulrasheed Saidu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
