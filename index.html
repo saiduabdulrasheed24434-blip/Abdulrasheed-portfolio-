@@ -395,7 +395,7 @@
                                 <input 
                                     id="sender-name" 
                                     type="text" 
-                                    placeholder="e.g. Adebayo Kunle" 
+                                    placeholder="e.g. Amirah Mojishola" 
                                     class="w-full px-3.5 py-2 rounded-lg bg-slate-800/80 border border-slate-700 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 >
                             </div>
